@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: red;
+}
+table{
+    text-align: center;
+    align-items: center;
+    margin-left: 460px;
+    table-layout: initial;
+    font-size: 25px;
+    border-color:blue;
+    border-style: double;
+    outline-style: dashed;
+    outline-color: brown;
+    color: green;
+}

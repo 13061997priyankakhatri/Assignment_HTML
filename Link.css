@@ -1,0 +1,16 @@
+a:link{
+    background-color: yellow;
+    margin-left: 500px;
+}
+h1{
+    color: blueviolet;
+    margin-left: 650px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+p{
+    color: red;
+    margin-left: 570px;
+    margin-bottom: 30px ;
+    font-size: 20px;
+}

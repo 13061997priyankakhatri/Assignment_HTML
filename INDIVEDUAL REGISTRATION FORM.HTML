@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDIVIDUAL REGISTRATION FORM</title>
+    <style>
+        *{
+            font-size: 24px;
+            background-color:rgb(206, 249, 249);
+        }
+        h1{
+            color: rgb(198, 30, 64);
+            word-spacing: 10px;
+        }
+        td{
+            padding-top:20px;
+            color:rgb(198, 30, 64);
+        }
+        th{
+            color:darkblue;
+        }
+        input{
+            border-color: darkblue;
+            background-color: white;
+        }
+        select{
+            margin-left: 35px;
+            color: darkblue;
+            background-color: white;
+        }
+        span{
+            color: rgb(198, 30, 64);;
+        }
+    </style>
+</head>
+<body>
+        <h1><center><strong>Individual Registration</strong></center></h1>
+        <form action="/form.php" method="POST">
+            <table cellpadding="10">
+                <thead>
+                <tr>
+                    <td><label for="User particulars"><strong>User Particulars</strong></label></td>
+                </tr> 
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th align="right"><label for="ID"><span>*</span>Login ID</label></th>
+                    <th><input type="text" name="*Login" id="ID"></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th align="right"><label for=""><span>*</span>Password</label></th>
+                    <th><input type="text" name="*Password" id="Password"></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th align="right"><label for=""><span>*</span>Confirm Password </label></th>
+                    <th><input type="text" name="*Confirm Password" id="Confirm Password"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="Personal Perticulars"><strong>Personal Perticulars</strong></label></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th align="right"><label for="Salutation"><span>*</span>Salutation</label></th>
+                    <td>
+                        <select name="select" id="select">select 
+                            <option value="select" selected disabled>select</option>
+                        </select>
+                    </td>
+                    <th align="right"><label for="First Name"><span>*</span>First Name </label></th>
+                    <th><input type="text" name="Name" id="First"></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th align="right"><label for="Middle Name">Middle Name</label></th>
+                    <th> <input type="text" name="Name" id="Middle"></th>
+                    <th align="right"><label for="Last Name"><span>*</span>Last Name </label></th>
+                    <th><input type="text" name="Name" id="Last"></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th align="right"><label for="Recident Status"><span>*</span>Recident Status
+                    </label></th>
+                    <td><select name="select" id="select">select 
+                            <option value="select" selected disabled>select</option>
+                        </select></td>
+                    <th align="right"><label for="Country"></label><span>*</span>Country</th>
+                    <td><select name="select" id="select">select 
+                            <option value="select" selected disabled>select</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th align="right"><label for="Email ID"><span>*</span>Email ID</label></th>
+                    <th><input type="Email" name="Email" id="Email ID"></th>
+                    <th align="right"><label for="Mobile Number"><span>*</span>Mobile Number</label></th>
+                    <th><input type="tel" name="Number" id="Mobile Number"></th>
+                </tr>
+                <tr>
+                    <td><label for="Account"><strong>Account Perticulars</strong></label></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th align="right"><label for="Account No"><span>*</span>15 Digit Account<br>No</label></th>
+                    <th><input type="text" name="No" id="Account No"></th>
+                    <th align="right"><label for="Nick Name"><span>*</span>Nick Name</label></th>
+                    <th><input type="text" name="Name" id="Nick Name"></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th align="right"><label for="Fund Transfer"><span>*</span>Fund Transfer</label></th>
+                    <td><select name="select" id="select">select 
+                        <option value="select" selected disabled>select</option>
+                    </select></td>
+                </tr>
+            </tbody>
+                <tr>
+                    <td><label for="Declaration"><strong>Declaration</strong></label></td>
+                </tr>
+                <tr>
+                    <th align="left" colspan="19">I have read, understand and hereby agree to the Terms and Conditions in respect of all products and <br> chennels. 
+                    <br> I understand that any changes in the terms and conditions applicable to this relationship would be made
+                    available to me on resquest at any IOB branches. <br> I confirm that all accounts under this login name are 
+                    operated singly and in case of joint account operated by either or survivor/anyone or survivor(s) under 
+                    his/her joint name respectively. <br> I do hereby declare that information furnished in this form is true to the 
+                    best of my knowledge and belief.</strong></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th colspan="3.9" align="center">
+                        <input type="submit" value="submit" style="color: white; background-color:rgba(79, 184, 249, 0.932);">
+                        <input type="reset" value="reset" style="color: white; background-color:rgba(79, 184, 249, 0.932);">
+                    </th>
+                </tr>
+            </table>
+        </form>
+</body>
